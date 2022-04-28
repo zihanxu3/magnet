@@ -1,8 +1,8 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
-import './index.scss'
+import './index.scss'　
 
-export default class Index extends Component {
+export default class Join extends Component {
 
   componentWillMount () { }
 
@@ -17,7 +17,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>This is the main for Magnet</Text>
+        <Text>This is the join for Magnet</Text>
       </View>
     )
   }
